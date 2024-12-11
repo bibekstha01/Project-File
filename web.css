@@ -1,0 +1,1125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color:aliceblue
+    
+}
+
+#start{
+position:fixed
+
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 7px;
+    
+}
+nav ul li{
+    display: inline-block;
+ 
+}
+nav ul li a{
+    color: antiquewhite;
+    font-size: 16px;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+nav ul li a#Home{
+    color:rgb(255, 0, 204) ;
+}
+nav ul li a:hover{
+    color: rgb(255, 0, 204);
+}
+
+
+html,body,#whoweare{
+    height: 100%;
+}
+
+#start{
+    right: 0px;
+    left: 0px;
+    padding: 20px 0;
+    background-color: #31006E;
+    
+}
+
+
+
+#box{
+    background-color: rgb(255, 255, 255);
+    width: 604px;
+    padding: 59px 30px;
+     /* margin-top: 110px; */
+    font-size: 18px;
+       
+}
+
+#box h2{
+    font-size: 45px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #31006E;
+}
+
+#box p3{
+    word-spacing: 5px;
+    font-size: 17px;
+    color: rgb(255, 0, 191);
+
+}
+#box small{
+    color: #333;
+
+}
+
+h1{
+   
+    /* margin-top: 108px; */
+    font-size: 32px;
+    font-style: normal;
+}
+p{
+    color:#333;
+    font-size: 17px;
+    padding-top: 6px;
+
+    
+}
+
+
+
+.button1{
+    color: #31006E;
+    background-color: aliceblue;
+    border-color: #31006E;
+    border-width: 1;
+    padding: 10px 12px ;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+#whoweare {
+    padding: 120px 0;
+    font-size: 30px;
+    color: #2e3192;
+    /* margin-top: 120px; */
+    background-image: url(images/building.png);
+    background-repeat: no-repeat;
+    background-position: 90% 100%;
+    background-size: 510px auto;
+
+}
+
+.content.who-we-are h2{
+    margin-top: 0;
+}
+#hero{
+    background-color: #31006E;
+    height: 670px;
+    padding-bottom: 80px;
+    background-image: url(images/banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    padding-top: 50px;
+    
+    
+   
+}
+
+#heading{
+    font-size: 20px; 
+    padding-top: 30px;
+    word-spacing: 10px;
+    padding-bottom: 0;
+    line-height: 50px;
+}
+
+#heading h1{
+    color: white; 
+    padding-top: 77px ; 
+    padding-bottom: 29px;  
+}
+.content{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#work{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+#wk{
+    background-color: rgb(77, 130, 230);
+    margin-top: 0px;
+    width: 100%;
+    padding: 110px 0px    ;
+
+    
+    
+    
+}
+
+#workus p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#first{
+    width: 100%;
+    height: 110%;
+}
+
+
+a[
+    width="220px" 
+    height="49px"
+    
+]
+
+nav{
+    background-color:rgb(106, 25, 237);
+     padding-top: 30px;
+     padding-bottom: 20px;"
+
+     
+}
+
+#button2{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(77, 130, 230);
+    border-color:rgb(255, 255, 255);
+    border-width: 1px;
+    padding: 10px 12px ;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 45%;
+    display: inline;
+    
+    
+    
+    
+}
+
+#fix{
+    background-image: url(images/parallax-home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center center;
+    margin-top: 0px;
+    height:400px;
+}
+
+#Js h2{
+    color: blue;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    
+    
+}
+#Js h3{
+    text-align: center;
+    font-size: 13px;
+    color: #625e5e;
+    margin-top: 5px;
+}
+
+.Done a{
+    color: #ec008c;
+    font-size: 24px;
+    display: block;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+
+.Done a:hover{
+    color: #2e3192;
+}
+
+.Done a i{
+    float: right;
+    color: #2e3192;
+    
+}
+
+
+li.Done a {
+  border-bottom: 1px solid rgb(234, 234, 226)
+}
+
+li:last-child a{
+    border:none;
+}
+
+.content h4{
+    text-align: center;
+    font-size: 30px;
+    color: #434040;
+
+}
+
+/* .content p{
+    text-align: center;
+
+} */
+
+#button3{
+    padding: 13px 18px;
+    color: #10069f;
+    border: 1px solid #10069f;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 140px;
+    margin-left: 10px;
+    margin-top: 45px;
+    /* margin: 30px 0 0; */
+    /* display: inline; */
+    /* margin-left: 40% */
+    /* text-align: center; */
+
+    
+}
+
+#button4{
+    padding: 13px 18px;
+    color: #10069f;
+    border: 1px solid #10069f;
+    border-radius: 3px;
+    margin-bottom: 140px;
+    font-size: 16px;
+    margin-bottom: 140px;
+    margin-left: 10px;
+    margin-top: 45px;
+    /* text-align: center; */
+    /* display: inline */
+    /* margin: 10px 0 0; */
+    
+    
+}
+
+#But{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    width: 304px;
+}
+
+#content-last{
+    background-color: #2c3990;
+    padding: 90px 0px;
+    font-size: 24px;
+    color: white;
+    width: 100%;
+    height: 512px;
+    
+   
+    
+   }
+
+   #Img{
+    float: left;
+   }
+
+#last{
+    color: white;
+
+}
+
+#content-last .button1{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 100px;
+    /* color:white; */
+}
+
+#content-last .content  h5{
+    font-size:30px;
+    padding: 0 0 20px 0;
+    margin-top: -30px;
+    
+    
+    
+    
+}
+
+.content h6{
+    color:#31006E;  
+    font-size: 20px;
+    padding: 55px 0 20px 0;
+   
+
+}
+.content h6 Contact Us{
+    float: right;
+
+}
+
+
+.first ul{
+    text-decoration: none;
+    list-style: none;
+    
+   
+}
+
+.first ul a{
+    text-decoration: none;
+}
+
+.first{
+    display: inline-block;
+    padding: 0 70px 0  0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.right{
+    float: right;
+    margin-right: 150px;
+    display: inline-block;
+}
+
+.right ul{
+    list-style: none;
+}
+
+#bor{
+    display: inline-block;
+}
+
+.side{
+    font-size: 15px;
+}
+
+.w50{
+    display: inline-block;  width: 50%;
+}
+
+
+
+
+
+#imo img{
+    width: 129px;  height: 106px; display: block; margin-top: 10px;
+     margin-left: auto; margin-right: auto; 
+}
+
+@media  (min-width : 365px)  and (max-width: 750px){
+    body{
+        background: white;
+        color: rgb(0, 0, 0);
+    }
+   
+   
+    #imo img{
+        width: 80px;
+        height: auto;
+    }
+}
+
+
+@media (min-width:550px) and (max-width:750px){
+    .content{
+       
+            width: 90%;
+            padding-left: 0px;
+            padding-right: 0px;
+            
+         
+        
+
+    }
+    
+}
+
+
+@media (min-width:550px) and (max-width:750px) {
+    #start .content img{
+        width: 80px;
+        padding-top: 10px;
+        
+    }
+    
+}
+
+@media (min-width:550px) and (max-width:750px) {
+#start{
+    right: 0px;
+    left: 0px;
+    padding: 6px 0;
+    background-color: #31006E;
+    
+}
+
+}
+
+@media (min-width:550px) and (max-width:750px) {
+nav ul li a {
+    color: antiquewhite;
+    font-size: 10px;
+    padding: 0px 6px;
+    text-decoration: none;
+}
+}
+
+
+
+@media (min-width:550px) and (max-width:750px){
+    #heading h1 {
+        color: white;
+        padding-top: 55px;
+        padding-bottom: 25px;
+        font-size: 25px;
+    
+}
+
+}
+
+
+@media (min-width:550px) and (max-width:750px){
+
+#box {
+    background-color: rgb(255, 255, 255);
+    width: 403px;
+    padding: 20px 24px;
+    font-size: 15px;
+}
+
+}
+
+@media (min-width:550px) and (max-width:750px){
+#box h2 {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #31006E;
+}
+}
+
+@media (min-width:550px) and (max-width:750px){
+#box p3 {
+    word-spacing: 5px;
+    font-size: 13px;
+    color: rgb(255, 0, 191);
+}
+}
+
+@media (min-width:550px) and (max-width:750px){
+#hero {
+    background-color: #31006E;
+    height: 500px;
+    padding-bottom: 90px;
+    background-image: url(images/banner-pattern.png);
+    background-repeat: repeat-y;
+    background-position: left: auto;
+    padding-top: 40px;
+    background-size: 390px auto;
+}
+}
+
+
+@media (min-width: 550px) and (max-width: 750px)
+p {
+}
+p {
+    color: #333;
+    font-size: 13px;
+    padding-top: 6px;
+}
+
+
+@media (min-width:550px) and (max-width:750px){
+#whoweare {
+    padding: 90px 0 120px 0;
+    font-size: 20px;
+    color: #2e3192;
+    background-image: url(images/building.png);
+    background-repeat: no-repeat;
+    background-position: 90% 100%;
+    background-size: 270px auto;
+}
+}
+
+
+@media (min-width:550px) and (max-width:750px){
+.button1 {
+    color: #31006E;
+    background-color: aliceblue;
+    border-color: #31006E;
+    border-width: 2;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    margin-top: 30px;
+}
+}
+
+
+@media (min-width:550px) and (max-width:750px){
+    #work {
+        text-align: center;
+        font-size: 25px;
+        margin-top: auto;
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+@media (min-width:550px) and (max-width:750px){
+#workus p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-size: 16px;
+}
+}
+
+
+
+@media (min-width:550px) and (max-width:750px){
+#button2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 130, 230);
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    padding: 7px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    margin-top: 14px;
+    margin-left: 44%;
+    display: inline;
+}
+}
+
+
+@media (min-width:550px) and (max-width:750px){
+    #wk {
+        background-color: rgb(77, 130, 230);
+        margin-top: 0px;
+        width: 100%;
+        padding: 60px 0px;
+    }
+}
+
+@media (min-width:550px) and (max-width:750px){
+#fix {
+    background-image: url(images/parallax-home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin-top: 0px;
+    height: 280px;
+}
+}
+@media (min-width:550px) and (max-width:750px){
+#Js h2 {
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 49px;
+    padding-bottom: 0px;
+}
+}
+
+@media (min-width:550px) and (max-width:750px){
+.Done a {
+    color: #ec008c;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+}
+
+
+
+@media (min-width:550px) and (max-width:750px){
+.content h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #434040;
+}
+}
+
+@media (min-width:550px) and (max-width:750px){
+
+p {
+    color: #333;
+    font-size: 11px;
+    padding-top: 6px;
+}
+}
+
+@media (min-width:550px) and (max-width:750px){
+#button3 {
+    padding: 7px 6px;
+    color: #10069f;
+    border: 1px solid #10069f;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-top: 45px;
+}}
+
+@media (min-width:550px) and (max-width:750px){
+    #button4 {
+        padding: 7px 6px;
+        color: #10069f;
+        border: 1px solid #10069f;
+        border-radius: 3px;
+        font-size: 16px;
+        margin-bottom: 60px;
+        margin-left: 10px;
+        margin-top: 45px;
+    }}
+
+
+    @media (min-width:550px) and (max-width:750px){
+    #content-last {
+        background-color: #2c3990;
+        padding: 82px 0px;
+        font-size: 24px;
+        color: white;
+        width: 100%;
+        height: 285px;
+    }}
+
+    @media (min-width:550px) and (max-width:750px){
+        #content-last .content img {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        }
+
+        @media (min-width:550px) and (max-width:750px){
+        #content-last .content h5 {
+            font-size: 25px;
+            padding: 0 0 20px 0;
+            margin-top: -30px;
+        }
+    }
+
+    @media (min-width:550px) and (max-width:750px){
+        .content h6 {
+            color: #31006E;
+            font-size: 15px;
+            padding: 30px 0 20px 0;
+        }}
+
+
+        @media (min-width:550px) and (max-width:750px){
+            .first ul a {
+                text-decoration: none;
+                font-size: 10px;
+            }}
+
+    @media (min-width:550px) and (max-width:750px){
+            .first ul a {
+                text-decoration: none;
+                font-size: 10px;
+            }}
+
+     @media (min-width:550px) and (max-width:750px){
+                .first {
+                    display: inline-block;
+                    padding: 0 40px 0 0;
+                    font-size: 15px;
+                    line-height: 1.6;
+                }}
+
+     @media (min-width:550px) and (max-width:750px){
+        .side{
+            font-size: 10px;
+        }
+    }
+
+     @media (min-width:550px) and (max-width:750px){
+        .right{
+            float: right;
+            margin-right: 90px;
+            display: inline-block;
+        }
+    }
+
+    @media (min-width:550px) and (max-width:750px){
+        .content style
+        font-size: 10px;{
+
+        }}
+
+        @media (min-width:550px) and (max-width:750px){
+
+        .w50{
+            display: inline-block;  width: 50%;
+            font-size: 10px;
+        }}
+
+
+        @media (min-width:550px) and (max-width:750px){
+            .w50 img{
+               width: 100px;
+               height: auto;
+            }
+        }
+
+
+        /* Next  */
+
+        @media (min-width:0px) and (max-width:550px){
+            .content{
+       
+                width: 90%;
+                padding-left: 0px;
+                padding-right: 0px;
+                
+        }}
+    
+
+        @media (min-width:0px) and (max-width:550px) {
+            #start .content img{
+                width: 80px;
+                height: auto;
+                
+            }
+            
+        }
+        
+        @media (min-width:0px) and (max-width:550px) {
+        #start{
+            right: 0px;
+            left: 0px;
+            padding: 2px 0;
+            background-color: #31006E;
+            
+        }}
+
+        @media (min-width:0px) and (max-width:550px) {
+        nav ul {
+            list-style-type: none;
+            float: right;
+            margin-top: 0px;
+        }}
+        
+        @media (min-width:0px) and (max-width:550px) {
+        nav ul li a {
+            color: antiquewhite;
+            font-size: 8px;
+            padding: 0px 3px;
+            text-decoration: none;
+        }
+        }
+
+
+
+
+
+        @media (min-width:0px) and (max-width:550px){
+            #heading h1 {
+                color: white;
+                padding-top: 20px;
+                padding-bottom: 6px;
+                font-size: 15px;
+                line-height: 30px;
+            
+        }
+        
+        }
+        
+        
+        @media (min-width:0px) and (max-width:550px){
+        
+        #box {
+            background-color: rgb(255, 255, 255);
+            width: 258px;
+            padding: 8px 12px;
+            font-size: 8px;
+        }}
+
+        @media (min-width:0px) and (max-width:550px){
+        #box small {
+            color: #333;
+            font-size: 10px;
+        }}
+        
+        @media (min-width:0px) and (max-width:550px){
+        #box h2 {
+            font-size: 15px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            color: #31006E;
+        }
+        }
+        
+        @media (min-width:0px) and (max-width:550px){
+        #box p3 {
+            word-spacing: 5px;
+            font-size: 11px;
+            color: rgb(255, 0, 191);
+        }
+        }
+
+        @media (min-width:0px) and (max-width:550px){
+        #hero {
+            background-color: #31006E;
+            height: 392px;
+            padding-bottom: 80px;
+            background-image: url(images/banner-pattern.png);
+            background-repeat: no-repeat;
+            background-position: % 50%;
+            padding-top: 50px;
+        }}
+
+        @media (min-width:0px) and (max-width:550px){
+        #whoweare {
+            padding: 60px 0;
+            font-size: 13px;
+            color: #2e3192;
+            background-image: url(images/building.png);
+            background-repeat: no-repeat;
+            background-position: 90% 100%;
+            background-size: 157px auto;
+        }}
+
+        @media (min-width:0px) and (max-width:550px){
+        .button1 {
+            color: #31006E;
+            background-color: aliceblue;
+            border-color: #31006E;
+            border-width: 1px;
+            padding: 2px 6px;
+            border-radius: 8px;
+            font-size: 10px;
+            margin-top: 27px;
+        }}
+
+
+        @media (min-width:0px) and (max-width:550px){
+            p {
+                color: #333;
+                font-size: 10px;
+                padding-top: 6px;
+            }}
+
+            @media (min-width:0px) and (max-width:550px){
+            #button2 {
+                color: rgb(255, 255, 255);
+                background-color: rgb(77, 130, 230);
+                border-color: rgb(255, 255, 255);
+                border-width: 1px;
+                padding: 4px 3px;
+                border-radius: 6px;
+                font-size: 10px;
+                margin-top: 9px;
+                margin-left: 44%;
+                display: inline;
+            }}
+
+            @media (min-width:0px) and (max-width:550px){
+            #wk {
+                background-color: rgb(77, 130, 230);
+                margin-top: 0px;
+                width: 100%;
+                padding: 41px 0px;
+            }}
+
+            @media (min-width:0px) and (max-width:550px){
+            #workus p {
+                text-align: center;
+                color: rgb(255, 255, 255);
+                line-height: 30px;
+                font-size: 11px;
+            }}
+
+            @media (min-width:0px) and (max-width:550px){
+            #work {
+                text-align: center;
+                font-size: 20px;
+                margin-top: 0%;
+                color: rgb(255, 255, 255);
+            }}
+
+            @media (min-width:0px) and (max-width:550px){
+            #fix {
+                background-image: url(images/parallax-home.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center center;
+                margin-top: 0px;
+                height: 250px;
+            }}
+
+            @media (min-width:0px) and (max-width:550px){
+            #Js h2 {
+                color: blue;
+                text-align: center;
+                font-size: 20px;
+                margin-top: 30px;
+                padding-bottom: 1px;
+            }}
+
+            @media (min-width:0px) and (max-width:550px){
+            .Done a {
+                color: #ec008c;
+                font-size: 14px;
+                display: block;
+                text-decoration: none;
+                padding: 10px 0px;
+            }}
+
+            @media (min-width:0px) and (max-width:550px){
+            #imo img {
+                width: 60px;
+                height: auto;
+            }}
+
+            @media (min-width:0px) and (max-width:550px){
+            .content h4 {
+                text-align: center;
+                font-size: 15px;
+            }}
+
+            @media (min-width:0px) and (max-width:550px){
+                #button3 {
+                    padding: 4px 6px;
+                    color: #10069f;
+                    border: 1px solid #10069f;
+                    border-radius: 3px;
+                    font-size: 10px;
+                    margin-bottom: 0;
+                    margin-top: 5%;
+                    margin-left: 0;
+                }}
+
+            @media (min-width:0px) and (max-width:550px){
+                #button4 {
+                    padding: 4px 6px;
+                    color: #10069f;
+                    border: 1px solid #10069f;
+                    border-radius: 3px;
+                    font-size: 10px;
+                    margin-bottom: 0;
+                    margin-top: 5%;
+                    margin-left: 0;
+                }}
+
+                @media (min-width:0px) and (max-width:550px){
+                #But {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    width: 50%;
+                    margin-bottom: -20%;
+                }}
+
+
+                @media (min-width:0px) and (max-width:550px){
+                #content-last {
+                    background-color: #2c3990;
+                    padding: 90px 0px 35px;
+                    margin-top: 30%;
+                    font-size: 24px;
+                    color: white;
+                    width: 100%;
+                    height: unset;
+                }}
+
+
+                @media (min-width:0px) and (max-width:550px){
+                    #content-last .content img {
+                        width: 120px;
+                        height: auto;
+                        display: block;
+                        margin-top: 20px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }}
+                
+                    @media (min-width:0px) and (max-width:550px){
+                    #content-last .content h5 {
+                        font-size: 20px;
+                        padding: 0 0 20px 0;
+                        margin-top: -40px;
+                    }}
+
+                    @media (min-width:0px) and (max-width:550px){
+                    .side {
+                        font-size: 8px;
+                    }}
+
+                    @media (min-width:0px) and (max-width:550px){
+                    .first {
+                        display: inline-block;
+                        padding: 0 22px 0 0;
+                        font-size: 8px;
+                        line-height: 1.6;
+                    }}
+
+                    @media (min-width:0px) and (max-width:550px){
+                    .content h6 {
+                        color: #31006E;
+                        font-size: 12px;
+                        padding: 48px 0 12px 0;
+                    }}
+
+                    @media (min-width:0px) and (max-width:550px){
+                    #content-last .button1 {
+                        border-color: white;
+                        color: white;
+                        background-color: transparent;
+                        margin-bottom:0px;}}
+
+                    @media (min-width:0px) and (max-width:550px){
+                    .w50 {
+                        display: inline-block;
+                        width: 50%;
+                        font-size: 8px;
+                    }}
+
+                    @media (min-width:0px) and (max-width:550px){
+                    .w50 img {
+                        width: 80px;
+                        height: auto;
+                    }}
+                    
+
+
+                    
+
+
+
+             
+
+
+            
